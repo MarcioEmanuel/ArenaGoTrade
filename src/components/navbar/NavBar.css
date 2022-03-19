@@ -1,0 +1,65 @@
+header{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: transparent;
+  transition: all ease 0.5s;
+}
+
+ul{
+  display: flex;
+}
+
+header.black{
+  background-color: #141414;
+}
+
+.button{
+  margin-left: 50px;
+  vertical-align: top;
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.header--logo{
+  height: 30px;
+}
+
+.header--logo img{
+  height: 100%;
+}
+
+.header--user{
+  height: 35px;
+}
+
+.header--user img{
+  height: 100%;
+  border-radius: 4px;
+}
+
+button{
+  background: transparent;
+  color: aliceblue;
+  border: none;
+}
+
+@media (max-width:760px) {
+  header{
+    height: 70px;
+    display: block;
+    background: transparent;
+    transition: all ease 0.5s;
+  }
+  
+  buttom{
+    visibility: hidden;
+  }
+}
