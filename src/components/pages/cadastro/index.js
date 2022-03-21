@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import NavBar from '../../navbar';
-import Tmdb from '../../api/Tmdb';
-import MovieRow from '../../movieRow';
 import './cadastro.css';
 
 
@@ -34,7 +32,7 @@ function Cadastro() {
       <NavBar black={blackHeader} />
 
       <div className="CadastroFilmes">
-          <ul>
+          <ul className='UlCadastro'>
             <li>Titulo<br></br><input type="text" placeholder="Titulo do Filme"/></li>
             <li>Lançamento<br></br><input type="date" placeholder="Data de Lançamento"/></li>
             <li>Sinopse<br></br><input className='Sinopse' type="text" maxlength="300" placeholder="Sinopse"/></li>
