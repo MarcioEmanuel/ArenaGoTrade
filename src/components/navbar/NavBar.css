@@ -13,9 +13,22 @@ header{
   transition: all ease 0.5s;
 }
 
-ul{
-  display: flex;
+ul li{
+  margin-top: 0px;
+  margin-left: 50px;
+  vertical-align: top;
+  padding-top: 5px;
+  font-size: 18px;
 }
+
+header ul{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+
 
 header.black{
   background-color: #141414;

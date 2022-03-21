@@ -1,0 +1,44 @@
+.Cadastro{
+    margin-top: 100px;
+}
+
+.CadastroFilmes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px
+}
+
+ul li {
+    list-style-type: none;
+    margin-block-start: 2em;
+}
+
+ul{
+    background-color: #333;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: baseline;
+    padding-inline-start: 0em;
+    margin-block-start: 0em;
+    padding-right: 3em;
+    border-radius: 5px;
+    padding-bottom: 2em;
+}
+
+.Sinopse{
+    height: 60px;
+}
+
+.ButtonCadastro{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.CadastroFooter{
+    text-align: center;
+
+}

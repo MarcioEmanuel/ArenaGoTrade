@@ -9,23 +9,8 @@ const basicFetch = async (endpoint) => {
 }
 
 export default {
-    getHomeList: async () => {
+    getHomeList2: async () => {
         return[
-            {
-                slug: 'originals',
-                title: 'Originais da Netflix',
-                items: await basicFetch(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
-            },
-            {
-                slug: 'trending',
-                title: 'Recomendados para voce',
-                items: await basicFetch(`/trending/all/week?lenguage=pt-BR&api_key=${API_KEY}`)
-            },
-            {
-                slug: 'toprated',
-                title: 'Em Alta',
-                items: await basicFetch(`/movie/top_rated?language=pt-BR&api_key=${API_KEY}`)
-            },
             {
                 slug: 'action',
                 title: 'Ação',
@@ -55,7 +40,7 @@ export default {
         ];
     },
 
-    getMovieInfo: async (movieId, type) => {
+    getMovieInfo2: async (movieId, type) => {
         let info = {}
 
         if(movieId){
